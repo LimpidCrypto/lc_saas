@@ -1,0 +1,6 @@
+<ol *ngIf="ordered">
+    <li *ngFor="let item of items">{{ item }}</li>
+</ol>
+<ul *ngIf="!ordered">
+    <li *ngFor="let item of items">{{ item }}</li>
+</ul>

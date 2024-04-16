@@ -8,6 +8,8 @@ import { ImageComponent } from './image/image.component';
 import { LinkComponent } from './link/link.component';
 import { ModalComponent } from './modal/modal.component';
 import { Rotate180Component } from './rotate180/rotate180.component';
+import { ListComponent } from './list/list.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 
 
@@ -21,6 +23,8 @@ import { Rotate180Component } from './rotate180/rotate180.component';
     LinkComponent,
     ModalComponent,
     Rotate180Component,
+    ListComponent,
+    NavigationComponent,
   ],
   imports: [
     CommonModule
@@ -34,6 +38,8 @@ import { Rotate180Component } from './rotate180/rotate180.component';
     LinkComponent,
     ModalComponent,
     Rotate180Component,
+    ListComponent,
+    NavigationComponent,
   ]
 })
 export class AtomsModule { }
